@@ -1,13 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:food_app/common/app_style.dart';
+import 'package:food_app/common/reusable_text.dart';
 import 'package:food_app/constants/constants.dart';
 import 'package:food_app/constants/uidata.dart';
+import 'package:food_app/controllers/category_controller.dart';
+import 'package:get/get_core/src/get_main.dart';
+import 'package:get/get_instance/get_instance.dart';
 
 class CategoryList extends StatelessWidget {
   const CategoryList({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final controller = Get.put(CategoryController());
     return Container(
       height: 80.h,
       padding: EdgeInsets.only(
@@ -19,6 +25,7 @@ class CategoryList extends StatelessWidget {
         children: List.generate(categories.length, (i) {
           var category = categories[i];
           return GestureDetector(
+            onTap: () {},
             child: Container(
               margin: EdgeInsets.only(right: 5.w),
               padding: EdgeInsets.only(top: 4.h),
@@ -35,7 +42,10 @@ class CategoryList extends StatelessWidget {
                       category['imageUrl'],
                       fit: BoxFit.contain,
                     ),
-                  )
+                  ),
+                  ReusableText(
+                      text: category['title'],
+                      style: appStyle(12, kDark, FontWeight.normal))
                 ],
               ),
             ),
