@@ -66,17 +66,17 @@ List<dynamic> categories = [
   }
 ];
 
-const restaurants = [
+List<dynamic> restaurants = [
   {
     "_id": "6530ebbcc9e72013e5b65933",
     "title": "Lapisara Eatery",
     "time": "6:00am - 9:00pm",
     "imageUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp",
+        "https://s3-media0.fl.yelpcdn.com/bphoto/P3O6dJ2Xa1xYy0w-CX_xdw/258s.jpg",
     "owner": "fdfsdfsdfs",
     "code": "41007428",
     "logoUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDxlJG4IZ4ORRkSgDH6GrKO5So93u8qmK1Sw&s",
     "rating": 5,
     "ratingCount": "6765",
     "coords": {
@@ -94,7 +94,7 @@ const restaurants = [
     "title": "Burger King",
     "time": "6:00am - 9:00pm",
     "imageUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp",
+        "https://www.shutterstock.com/image-photo/amsterdam-netherlands-25-feb-2022-260nw-2129642369.jpg",
     "owner": "sjgdsjgfjshhjs",
     "code": "41007428",
     "logoUrl":
