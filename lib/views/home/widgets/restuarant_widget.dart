@@ -43,9 +43,31 @@ class RestuarantWidget extends StatelessWidget {
                         child: SizedBox(
                           height: 112.h,
                           width: width * 0.8,
-                          // child: Image.network(image),
+                          child: Image.network(
+                            image,
+                            fit: BoxFit.fitWidth,
+                          ),
                         ),
-                      )
+                      ),
+                      Positioned(
+                          right: 10.w,
+                          top: 10.h,
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(50.r),
+                            child: Container(
+                                color: kLightWhite,
+                                child: Padding(
+                                  padding: EdgeInsets.all(4.h),
+                                  child: ClipRRect(
+                                      borderRadius: BorderRadius.circular(50.r),
+                                      child: Image.network(
+                                        logo,
+                                        fit: BoxFit.cover,
+                                        width: 20,
+                                        height: 20,
+                                      )),
+                                )),
+                          ))
                     ],
                   ),
                 )

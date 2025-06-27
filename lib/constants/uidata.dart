@@ -72,7 +72,7 @@ List<dynamic> restaurants = [
     "title": "Lapisara Eatery",
     "time": "6:00am - 9:00pm",
     "imageUrl":
-        "https://s3-media0.fl.yelpcdn.com/bphoto/P3O6dJ2Xa1xYy0w-CX_xdw/258s.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_8G7qC-5qm-C3tRfoP16jjvj30IoORZx53A&s",
     "owner": "fdfsdfsdfs",
     "code": "41007428",
     "logoUrl":
@@ -98,7 +98,7 @@ List<dynamic> restaurants = [
     "owner": "sjgdsjgfjshhjs",
     "code": "41007428",
     "logoUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp",
+        "https://i.pinimg.com/736x/b6/3c/a3/b63ca3d0afcc57f1ca558de738a787f9.jpg",
     "rating": 5,
     "ratingCount": "3278",
     "coords": {
@@ -116,11 +116,11 @@ List<dynamic> restaurants = [
     "title": "La Foods",
     "time": "6:00am - 9:00pm",
     "imageUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp",
+        "https://www.intrepidtravel.com/adventures/wp-content/uploads/2021/08/shutterstock_birria-tacos-wp-1-1-1.jpg",
     "owner": "fgdgdfgd",
     "code": "41007428",
     "logoUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQfzwVPItNf4u8cF3RIrcf2mjHXmVU8BufPA&s",
     "rating": 5,
     "ratingCount": "5666",
     "coords": {
@@ -138,11 +138,11 @@ List<dynamic> restaurants = [
     "title": "Italian Restaurant",
     "time": "6:00am - 9:00pm",
     "imageUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp",
+        "https://t4.ftcdn.net/jpg/02/27/35/43/360_F_227354304_mLMmFNJKH7enSTOX38AVNPceqKziu9QW.jpg",
     "owner": "sjgdsjgfjshhjs",
     "code": "41007428",
     "logoUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp",
+        "https://img.freepik.com/free-vector/cool-italian-restaurant-typography-logo_742173-4129.jpg?t=st=1750863100~exp=1750866700~hmac=03bca6d3a756e313c53ede3b911b2bff064a2e708235ee18920368855feb1ec6&w=1800",
     "rating": 5,
     "ratingCount": "3278",
     "coords": {
