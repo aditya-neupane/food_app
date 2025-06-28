@@ -42,7 +42,7 @@ class RestuarantWidget extends StatelessWidget {
                         borderRadius: BorderRadius.circular(12.r),
                         child: SizedBox(
                           height: 112.h,
-                          width: width * 0.8,
+                          width: width * 0.9,
                           child: Image.network(
                             image,
                             fit: BoxFit.fitWidth,
